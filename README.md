@@ -77,7 +77,7 @@ python producer.py
 ## 2. Проверка
 
 ```bash
-curl -s http://localhost:8000/campaigns/camp_001/calls
+curl -s http://localhost:8000/v1/campaigns/camp_001/calls
 ```
 
 Результат: JSON-массив **ровно из 2 звонков** с `call_id` `call_0001`, `call_0002`. У каждой записи `campaign_id = camp_001`:
